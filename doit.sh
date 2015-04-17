@@ -1,5 +1,5 @@
 set -e
-HASH=`random 64`
+HASH=`random 4`
 echo "New random hash: $HASH"
 echo " --> saving to hash.txt"
 echo $HASH > hash.txt
